@@ -1,7 +1,7 @@
 services:
   product_adverts.normalizer.product_adverts:
     class: Drupal\product_adverts\Normalizer\ProductAdvertsNormalizer
-    arguments: ['@entity_type.manager']
+    arguments: ['@entity_type.manager', '@entity_type.repository', '@entity_field.manager']
     tags:
       - { name: normalizer, priority: 19 }
   product_adverts.top_products_creator:
