@@ -8,7 +8,7 @@
   "minimum-stability": "dev",
   "support": {
     "issues": "https://www.drupal.org/project/issues/product_adverts",
-    "source": "http://cgit.drupalcode.org/product_adverts"
+    "source": "https://git.drupalcode.org/project/product_adverts"
   },
   "require": {
       "drupal/adverts": "^1.0"
