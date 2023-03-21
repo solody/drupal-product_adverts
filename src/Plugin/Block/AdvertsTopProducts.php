@@ -22,6 +22,15 @@ class AdvertsTopProducts extends BlockBase {
   /**
    * {@inheritdoc}
    */
+  public function defaultConfiguration() {
+    return [
+      'quantity' => 10,
+    ];
+  }
+
+  /**
+   * {@inheritdoc}
+   */
   public function build() {
     $config = $this->getConfiguration();
 

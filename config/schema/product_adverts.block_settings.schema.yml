@@ -1,0 +1,29 @@
+block.settings.adverts_banner:
+  type: block_settings
+  label: 'Adverts banner block'
+  mapping:
+    product_advert:
+      type: string
+      label: 'Product advert ids'
+    show_new_tag:
+      type: boolean
+      label: 'Show new tag'
+    text_color:
+      type: string
+      label: 'Text color'
+
+block.settings.adverts_latest_products:
+  type: block_settings
+  label: 'Adverts latest products block'
+  mapping:
+    quantity:
+      type: integer
+      label: 'Quantity'
+
+block.settings.adverts_top_products:
+  type: block_settings
+  label: 'Adverts top products'
+  mapping:
+    quantity:
+      type: integer
+      label: 'Quantity'

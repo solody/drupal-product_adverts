@@ -20,6 +20,17 @@ class AdvertsBanner extends BlockBase {
   /**
    * {@inheritdoc}
    */
+  public function defaultConfiguration() {
+    return [
+      'product_advert' => '',
+      'show_new_tag' => TRUE,
+      'text_color' => '#000000',
+    ];
+  }
+
+  /**
+   * {@inheritdoc}
+   */
   public function build() {
     // Retrieve existing configuration for this block.
     $config = $this->getConfiguration();
