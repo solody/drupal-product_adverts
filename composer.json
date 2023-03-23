@@ -11,6 +11,6 @@
     "source": "https://git.drupalcode.org/project/product_adverts"
   },
   "require": {
-      "drupal/adverts": "^8.x-1.x-dev"
+      "drupal/adverts": "8.x-1.x-dev"
   }
 }
