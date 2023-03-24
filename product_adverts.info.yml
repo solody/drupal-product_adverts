@@ -1,12 +1,12 @@
 name: 'Product Adverts'
 type: module
 description: 'My Awesome Module'
-core_version_requirement: '^8.9 || ^9'
+core_version_requirement: '^9.3 || ^10'
 package: Custom
 dependencies:
-  - commerce_product
-  - product_adverts
-  - rest
-  - serialization
-  - views
-  - adverts
+  - commerce:commerce_product
+  - product_adverts:product_adverts
+  - drupal:rest
+  - drupal:serialization
+  - drupal:views
+  - adverts:adverts
